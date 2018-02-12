@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout1"
+        android:background="@android:color/transparent">
+
+    <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/unicornText" android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="PM is here"
+            android:gravity="center"
+            android:textColor="#FF00FF"
+            android:background="#80FFFFFF">
+    </TextView>
+
+    <ImageView
+            android:layout_height="100pt"
+            android:layout_width="100pt"
+            android:src="@drawable/unicorn"
+            android:layout_below="@+id/unicornText"
+            android:id="@+id/unicornImg" android:layout_marginLeft="5dip" android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip">
+    </ImageView>
+
+</RelativeLayout>
+

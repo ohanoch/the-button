@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@drawable/rainbow_background"
+              android:layout_height="match_parent" android:id="@+id/forgotPass">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/forgotPasswd">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Password Reset"
+                android:id="@+id/passwordResetHeading"
+                android:textStyle="bold" android:textColor="#F5ED13" android:textSize="40dp"
+                android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:textColor="#000000"
+                android:background="#80FFFFFF"
+                android:id="@+id/resetInput"
+                android:layout_above="@+id/resetSubmit" android:layout_alignStart="@+id/passwordResetHeading"
+                android:layout_alignEnd="@+id/passwordResetHeading"/>
+        <Button
+                android:layout_width="40pt"
+                android:layout_height="30pt"
+                android:paddingTop="13dp"
+                android:textColor="#008080"
+                android:background="@drawable/button_frame"
+                android:text="Submit"
+                android:id="@+id/resetSubmit"
+                android:layout_centerVertical="true" android:layout_alignStart="@+id/resetInput"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:background="#BFFFFFFF"
+                android:id="@+id/mainText" android:layout_above="@+id/resetInput"
+                android:layout_alignStart="@+id/resetInput" android:layout_alignEnd="@+id/resetInput"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:style="http://schemas.android.com/apk/res/com.example.The_Button"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/rainbow_background">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/regLayout">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Register"
+                android:id="@+id/RegisterView"
+                android:textStyle="bold" android:textColor="#F5ED13" android:textSize="60dp"
+                android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Username*:"
+                android:textColor="#000000"
+                android:background="#BFFFFFFF"
+                android:id="@+id/regUserName" android:layout_below="@+id/RegisterView"
+                android:layout_alignParentStart="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Password*:"
+                android:textColor="#000000"
+                android:background="#80FFFFFF"
+                android:id="@+id/regPassword1"
+                android:layout_below="@+id/regUserNameText" android:layout_alignParentStart="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Password*:"
+                android:textColor="#000000"
+                android:background="#BFFFFFFF"
+                android:id="@+id/regPassword2"
+                android:layout_below="@+id/regPassword1Text" android:layout_alignParentStart="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Email Addr:"
+                android:textColor="#000000"
+                android:background="#BFFFFFFF"
+                android:id="@+id/regEmail"
+                android:layout_below="@+id/regPassword2Text" android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/regPassword2Text"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/regSecurityQ"
+                android:textColor="#000000"
+                android:background="#BFFFFFFF"
+                android:text="Security Question*:" android:layout_below="@+id/regEmailText"
+                android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:background="#80FFFFFF"
+                android:id="@+id/regSecurityQText" android:layout_below="@+id/regSecurityQ"
+                android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:textColor="#000000"
+                android:background="#80FFFFFF"
+                android:id="@+id/regEmailText"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/regEmail" android:layout_below="@+id/regPassword2Text"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Security Answer*:"
+                android:textColor="#000000"
+                android:background="#BFFFFFFF"
+                android:id="@+id/regSecurityA"
+                android:layout_below="@+id/regSecurityQText" android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:background="#BFFFFFFF"
+                android:id="@+id/regSecurityAText" android:layout_below="@+id/regSecurityA"
+                android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:textColor="#000000"
+                android:background="#BFFFFFFF"
+                android:id="@+id/regPassword2Text"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/regPassword2" android:layout_below="@+id/regPassword1Text"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:textColor="#000000"
+                android:background="#80FFFFFF"
+                android:id="@+id/regPassword1Text"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/regPassword1" android:layout_alignTop="@+id/regPassword1"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:background="#BFFFFFFF"
+                android:id="@+id/regUserNameText"
+                android:layout_alignParentEnd="true" android:layout_alignTop="@+id/regUserName"
+                android:layout_toEndOf="@+id/regUserName"/>
+        <Button
+                android:layout_width="40pt"
+                android:layout_height="30pt"
+                android:paddingTop="13dp"
+                android:textColor="#008080"
+                android:background="@drawable/button_frame"
+                android:text="Submit"
+                android:id="@+id/registerSubmit"
+                android:layout_below="@+id/regSecurityAText" android:layout_centerHorizontal="true"
+                android:layout_marginTop="83dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="* = required field"
+                android:textColor="#000000"
+                android:background="#80FFFFFF"
+                android:id="@+id/regReqField"
+                android:layout_alignTop="@+id/registerSubmit" android:layout_alignParentStart="true"/>
+
+    </RelativeLayout>
+</LinearLayout>

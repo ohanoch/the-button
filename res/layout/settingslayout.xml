@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:background="@drawable/cloud_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/settingsLayout3">
+    <!--
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Sources:"
+                android:id="@+id/sourcesTitle" android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wikipedia"
+                android:id="@+id/wikipediaCheckBox" android:layout_below="@+id/sourcesTitle" android:layout_alignParentStart="true"
+                android:checked="false"/>
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XKCD"
+                android:id="@+id/xkcdCheckBox" android:layout_below="@+id/wikipediaCheckBox"
+                android:layout_alignParentStart="true" android:checked="false"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Security Question:"
+                android:id="@+id/settingsSecurityQTitle" android:layout_below="@+id/xkcdCheckBox" android:layout_alignParentStart="true"
+                android:layout_marginTop="51dp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/settingsSecurityQText" android:layout_below="@+id/settingsSecurityQTitle"
+                android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Security Answer:"
+                android:id="@+id/settingsSecurityATitle" android:layout_below="@+id/settingsSecurityQText"
+                android:layout_alignParentStart="true"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/settingsSecurityAText" android:layout_below="@+id/settingsSecurityATitle"
+                android:layout_alignParentStart="true" android:layout_alignParentEnd="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Changes"
+                android:id="@+id/settingsSaveChangesButton"
+                android:layout_below="@+id/settingsSecurityAText" android:layout_alignEnd="@+id/wikipediaCheckBox"/>
+                    -->
+    </RelativeLayout>
