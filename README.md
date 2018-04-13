@@ -14,5 +14,5 @@ Frontend uses android and JAva to display the app,
 The backend uses mySQL to store the databas, and uses PHP to access it.
 
 # Developers
-Or Hanoch
+Or Hanoch  
 Meir Rosendorff
